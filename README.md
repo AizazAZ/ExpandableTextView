@@ -1,11 +1,16 @@
 ExpandableTextView [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ExpandableTextView-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1203)
 ===================
 
-ExpandableTextView is an Android library that allows developers to easily create an TextView
+I just extended this awesome library and I removed padding and icon with a text so that it will look good on other UI as well that don't need to use Padding. ExpandableTextView is an Android library that allows developers to easily create an TextView
 which can expand/collapse just like the Google Play's app description.
 Feel free to use it all you want in your Android apps provided that you cite this project.
 
-<img src="https://raw.github.com/Manabu-GT/ExpandableTextView/master/art/readme_demo.gif" width=346 height=549 alt="Quick Demo">
+This is an old view that I have replaced.
+<img src="https://raw.github.com/Manabu-GT/ExpandableTextView/master/art/old.jpg" width=346 height=549 alt="Old View">
+
+This is new view that has no padding on bottom
+
+<img src="https://raw.github.com/Manabu-GT/ExpandableTextView/master/art/new.jpg" width=346 height=549 alt="New View">
 
 Requirements
 -------------
@@ -70,7 +75,8 @@ of the ExpandableTextView.
           android:layout_marginLeft="10dp"
           android:layout_marginRight="10dp"
           android:textSize="16sp"
-          android:textColor="#666666" />
+          android:textColor="#666666"
+          android:ellipsize="end" />
       <ImageButton
           android:id="@id/expand_collapse"
           android:layout_width="wrap_content"
