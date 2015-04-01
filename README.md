@@ -6,11 +6,11 @@ which can expand/collapse just like the Google Play's app description.
 Feel free to use it all you want in your Android apps provided that you cite this project.
 
 This is an old view that I have replaced.
-<img src="https://raw.github.com/Manabu-GT/ExpandableTextView/master/art/old.jpg" width=346 height=549 alt="Old View">
+<img src="https://github.com/AizazAZ/ExpandableTextView/blob/master/art/old.jpg" width=346 height=549 alt="Old View">
 
 This is new view that has no padding on bottom
 
-<img src="https://raw.github.com/Manabu-GT/ExpandableTextView/master/art/new.jpg" width=346 height=549 alt="New View">
+<img src="https://github.com/AizazAZ/ExpandableTextView/blob/master/art/new.jpg" width=346 height=549 alt="New View">
 
 Requirements
 -------------
